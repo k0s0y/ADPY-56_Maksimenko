@@ -72,10 +72,10 @@ def write_file(contacts_list):
         datawriter = csv.writer(f, delimiter=',')
         datawriter.writerows(contacts_list)
 
-
-contacts_list = read_csv('homework1_data.csv')
-contacts_list = format_fullname(contacts_list)
-contacts_list = format_phone(contacts_list)
-contacts_list = remove_duplicate(contacts_list)
-write_file(contacts_list)
-# print(contacts_list)
+if __name__ == '__main__':
+    contacts_list = read_csv('homework1_data.csv')
+    contacts_list = format_fullname(contacts_list)
+    contacts_list = format_phone(contacts_list)
+    contacts_list = remove_duplicate(contacts_list)
+    write_file(contacts_list)
+    # print(contacts_list)

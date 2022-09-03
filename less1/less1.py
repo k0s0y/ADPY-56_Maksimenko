@@ -29,4 +29,4 @@ result = re.search(pattern3, text)
 
 # Меняем регулярные выражения на "Regex"
 result_sub = re.sub(pattern3, "Regex", text)
-# print(result_sub)
+print(result_sub)
