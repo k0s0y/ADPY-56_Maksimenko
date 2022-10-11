@@ -1,2 +1,22 @@
 
 
+2022-09-23 17:19:56,226 
+Название функции: flat_generator
+Аргументы функции: (([['a', 'b', 'c'], ['d', 'e', 'f', 'h', False], [1, 2, None]],), {})
+Результат функции: <generator object flat_generator at 0x104dd8120>
+
+2022-09-23 17:19:56,226 
+Название функции: flat_generator
+Аргументы функции: ((['a', 'b', 'c'],), {})
+Результат функции: <generator object flat_generator at 0x104ee8ba0>
+
+2022-09-23 17:19:56,226 
+Название функции: flat_generator
+Аргументы функции: ((['d', 'e', 'f', 'h', False],), {})
+Результат функции: <generator object flat_generator at 0x104ee8ba0>
+
+2022-09-23 17:19:56,226 
+Название функции: flat_generator
+Аргументы функции: (([1, 2, None],), {})
+Результат функции: <generator object flat_generator at 0x104ee8ba0>
+
